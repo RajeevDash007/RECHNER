@@ -1,12 +1,6 @@
-<<<<<<< Updated upstream
 .navbar{
 	background-color: #1f2937 ;
 	border-radius: 10px;
-=======
-navbar{
-	background-color:white;
-	border-radius: 1px;
->>>>>>> Stashed changes
 	padding:0.5px;
 	margin:0.5px;
 	border:0.5px;
@@ -44,8 +38,5 @@ navbar{
 }
 
 .navbar hover{
-	color:black;
+	color:white;
 }
-
-	
-		
