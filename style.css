@@ -115,13 +115,14 @@ h2::before{
     height: 100%;
     color: #c53f3f;
     -webkit-text-stroke: 0vw #383d52;
-    border-right: 2px solid #01fe87;
+    
     overflow: hidden;
-    animation: animate 6s linear infinite;
+    animation: animate 6s linear 0.8;
     background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 @keyframes animate{
     0%,10%,100%{
         width: 0;

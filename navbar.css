@@ -1,15 +1,16 @@
 .navbar{
 	background-color: #1f2937 ;
-	border-radius: 20px;
-	margin:0px;
+	border-radius: 0px;
+	width: 170%;
 	border:0.5px;
     text-align: center;
 	z-index: 999;
-	
+	margin-left: -290px;
 }
 .navbar nav{
-	margin-top: -130px;
+	margin-top: -180px;
 	margin-bottom: 130px;
+	
 }
 .navbar ul{
 	overflow: auto;
@@ -19,7 +20,7 @@
 
 .navbar ul li{
     width: 200px;
-    margin: 5px 0px 5px -20px;
+    margin: 5px 10px 5px -20px;
     padding: 0px 0px 0px 0px;
 	text-align: center;
 
