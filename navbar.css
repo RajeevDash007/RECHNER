@@ -6,8 +6,9 @@
 	border:0.5px;
     text-align: center;
 	z-index: 999;
-	
 		font-family: "Montserrat";
+		z-index: 1000;
+		margin-bottom: 30px;
 }
 
 .navbar ul{
