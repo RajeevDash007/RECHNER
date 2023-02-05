@@ -91,3 +91,38 @@ table th:nth-child(3),
 table td:nth-child(3) {
   width: 2rem;
 }
+
+input {
+  width: 2.5rem;
+  height: 0.35rem;
+  border: none;
+  font-size: large;
+}
+
+
+.third {
+  border-color: #3498db;
+  color: black;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  transition: all 150ms ease-in-out;
+  height: 0.5rem;
+  width: 2rem;
+  font-size: larger;
+  font-family: "Orbitron";
+}
+.third:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  height: 0.5rem;
+  width: 3rem;
+  font-family: "Orbitron";
+  background-color: #e74c3c;
+  transition: all ease 0.3s;
+}
+.first:hover {
+  background-color: transparent;
+  border: 3px solid #e74c3c;
+}
