@@ -12,22 +12,25 @@
 }
 
 .navbar ul{
-	overflow: auto;
+
 	border-radius:0px; 
     display: inline-flex; 
+	
 }
+
+
 
 .navbar ul li{
     width: 200px;
 	text-align: center;
 	cursor: pointer;
-	/* position: relative;
+	position: relative;
 	z-index: 2;
-	transition: color 0.5s; */
+	transition: color 0.5s;
 
 }
 
-/* .navbar ul li::after{
+.navbar ul li::after{
 	content: '';
 	background : #31c2fc;
 	width: 60%;
@@ -41,7 +44,8 @@
 	opacity: 0;
 	transition: top 0.5s , opacity 0.5s;
 
-} */
+}
+
 
 .navbar ul li:hover{
 	color: black;
@@ -75,8 +79,7 @@
 
 .sub-menu{
 	display: none;
-
-}
+	z-index: -1;}
 
 .navbar ul li:hover .sub-menu{
 	display: block;
@@ -85,13 +88,17 @@
 	margin-top: 0px;
 	margin-left: 0px;
 
+	
 }
 
 .navbar ul li:hover .sub-menu ul{
 	display: block;
-	margin: 10px;
-
+	margin: 20px;
+	margin-right: 80px;
+	line-height: 50px;
+	text-align: center;
 }
+
 
 .navbar ul li:hover .sub-menu ul li{
 	width:100px;
@@ -100,13 +107,16 @@
 	border-radius: 0px;
 	text-align: left;
 	border-bottom: 1px dotted #fff;
+	
 }
 
 .navbar ul li:hover .sub-menu ul li:last-child{
 	border-bottom: none;
+
 }
 
 .navbar ul li:hover .sub-menu ul li a:hover{
 	color: darkblue;
+	z-index: 1000;
 }
 
