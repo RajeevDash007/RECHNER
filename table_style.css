@@ -121,6 +121,7 @@ input {
   font-family: "Orbitron";
   background-color: #e74c3c;
   transition: all ease 0.3s;
+  margin-bottom: 5%;
 }
 .first:hover {
   background-color: transparent;
