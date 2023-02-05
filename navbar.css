@@ -1,17 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Lobster|Anton|Shadows+Into+Light|Open+Sans|Roboto|Orbitron|Oswald|Raleway|Montserrat|Roboto+Slab|Indie+Flower|Fjalla+One|Bree+Serif|Pacifico|Abril+Fatface);
 .navbar{
 	background-color: #1f2937 ;
 	border-radius: 0px;
-	width: 170%;
+	width: 100%;
 	border:0.5px;
     text-align: center;
 	z-index: 999;
-	margin-left: -290px;
-}
-.navbar nav{
-	margin-top: -150px;
-	margin-bottom: 180px;
 	
+		font-family: "Montserrat";
 }
+
 .navbar ul{
 	overflow: auto;
 	border-radius:0px; 
@@ -20,8 +18,8 @@
 
 .navbar ul li{
     width: 200px;
-    margin: 5px 10px 5px -20px;
-    padding: 0px 0px 0px 0px;
+    
+   
 	text-align: center;
 
 }
