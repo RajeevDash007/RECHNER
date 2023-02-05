@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -31,6 +33,10 @@ body {
   display: grid;
   align-items: center;
   font-size: 0.2rem;
+}
+h1{
+  font-family: "Orbitron";
+  word-spacing: 20px;
 }
 
 table {
